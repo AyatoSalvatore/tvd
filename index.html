@@ -7,6 +7,177 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="dist/images/tvd_logo.png" alt="TVD Logo">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button">Assista agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="dist/images/tvd_logo.png" alt="TVD Logo">
+            </div>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="personagens" class="shows__tabs__button shows__tabs__button--is-active">
+                Personagens
+            </button>
+            <button data-tab-button="spin-offs" class="shows__tabs__button">
+                Spin-Offs
+            </button>
+        </nav>
+        <ul data-tab-id="personagens" class="shows__list shows__list--is-active">
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="/src/images/personagens/elena_gilbert.png" alt="Elena Gilbert">
+                    <h3 class="title--small">Elena Gilbert</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="/src/images/personagens/stefan_salvatore.jpeg" alt="Stefan Salvatore">
+                    <h3 class="title--small">Stefan Salvatore</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="/src/images/personagens/damon_salvatore.jpeg" alt="Damon Salvatore">
+                    <h3 class="title--small">Damon Salvatore</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="/src/images/personagens/caroline_forbes.png" alt="Caroline Forbes">
+                    <h3 class="title--small">Caroline Forbes</h3>
+                </li>
+            </div>
+        </ul>
+        <ul data-tab-id="spin-offs" class="shows__list">
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="" alt="">
+                    <h3 class="title--small">Elena Gilbert</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="" alt="">
+                    <h3 class="title--small">Stefan Salvatore</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="" alt="">
+                    <h3 class="title--small">Damon Salvatore</h3>
+                </li>
+            </div>
+            <div class="card">
+                <li class="shows__list__item">
+                    <img src="" alt="">
+                    <h3 class="title--small">Caroline Forbes</h3>
+                </li>
+            </div>
+        </ul>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/videogames.png" alt="Videogames">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/celular.png" alt="Celulares e Tablets">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="dist/images/tvd_logo.png" alt="TVD Logo">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="dist/images/icones/globe.svg" alt="Globo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portuguêss</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © 2025 The Vampire Diaries - Todos os direitos reservados.
+            </p>
+            <p class="text--small">
+                Desenvolvido por Kauan Schwengber.
+            </p>
+        </div>
+    </footer>
+    <script src="src/main.js"></script>
 </body>
 </html>
