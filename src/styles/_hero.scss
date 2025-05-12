@@ -6,6 +6,16 @@
     text-align: center;
     display: flex;
     align-items: center;
+    margin-top: -80px;
+
+    @media (max-width: 768px) {
+        background-image: url(../images/hero_desktop.jpg);
+        min-height: 40vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        margin-bottom: 20px;
+    }
 
     .button {
         margin-top: 2vw;
@@ -15,9 +25,22 @@
     &__content {
         max-width: 640px;
 
-        img {
-            display: flex;
-            width: 80%;
+        &__branding {
+            max-width: 320px;
+            margin: 0 auto 38px;
+
+            img {
+                position: relative;
+                max-width: 100%;
+            }
+            
+            @media (max-width: 768px) {
+
+                img {
+                    max-width: 100px;
+                    top: -50px;
+                }
+            }
         }
     }
 }
